@@ -2,10 +2,10 @@
 token = 'xxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 # Path to the folder where new notes should be created
-inbox_path = r'C:\your-obsidian-vault'
+inbox_path = r'/Users/markbase/vault'
 
 # Path to the folder where received pictures should be stored
-photo_path = r'C:\your-obsidian-vault\attachments'
+photo_path = r'/Users/markbase/vault/_attachments'
 
 # If True, messages (including picture captions) will retain formatting (bold, italic, links, etc.)
 # If False, messages will be saved as plain text. This also removes inline links.
@@ -33,7 +33,7 @@ whisper_model = 'medium'
 # To omit either prefix or postfix (or both), comment out corresponding option with # or edit it to be empty.
 # To omit the date part and always put new messages in a single static file, comment out note_date option
 # or edit it to be empty.
-note_prefix = 'Telegram-'
+note_prefix = 'Stream-'
 note_date = True
 note_postfix = '_Notes'
 
@@ -52,14 +52,14 @@ one_line_note = False
 # the message will be converted to a Markdown task like the following:
 # - [ ] Complete one important task
 # To turn this off, specify task_keywords = {}
-task_keywords = {'задач', 'сделать', 'todo', 'complete'}
+task_keywords = {'todo'}
 
 # If one of the keywords is found in the message text, the specified tag will be added to the message
 # To turn this off, specify negative_keywords = {}
-negative_keywords = {'негатив', 'печал'}
-negative_tag = '#негатив'
+negative_keywords = {'thoughts'}
+negative_tag = '#thoughts'
 
 # The ID of the chat the bot should read. Messages from other chats will be ignored.
 # When the bot receives the /start command, it replies with the ID of the chat.
 # This setting is not in effect yet.
-# my_chat_id = -xxxxxxxxx
+my_chat_id = -xxxxxxxxx
